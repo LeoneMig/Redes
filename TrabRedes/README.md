@@ -22,7 +22,8 @@ Utilize dois terminais diferentes ou máquinas distintas na mesma rede local.
 
 ```bash
 java -cp out Receptor [porta]
-## ou
+```
+```bash
 java -cp out Receptor
 ```
 
