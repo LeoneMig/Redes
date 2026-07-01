@@ -44,12 +44,13 @@ Exemplo :
 
 ```bash
 java -cp out Emissor ./Dados\hulk.png 127.0.0.1:./DadosRecebidos/hulk_recebido.png 8 0.10 5000
-## ou
+```
+```bash
 java -cp out Emissor ./Dados\arquivo_1_5MB.txt 127.0.0.1:./DadosRecebidos/arquivo_1_5MB_recebido.txt 8 0.10
 ```
 
 Lembre-se de colocar o arquivo a ser transferido na pasta "Dados", caso contrário, coloque o caminho do arquivo na parte de origem.
 
-Não se esqueça de renomear as saídas conforme for fazendo a transfeência de arquivos distintos.
+Não se esqueça de renomear as saídas conforme for fazendo a transferência de arquivos distintos.
 
 Ao final da transferência, tanto o Emissor quanto o Receptor exibirão relatórios detalhados no terminal.
